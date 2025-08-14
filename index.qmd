@@ -1,0 +1,13 @@
+---
+title: "Aprendizaje Computacional"
+---
+
+# Prefacio {.unnumbered}
+
+Este curso es una compilación de notas y ejemplos. El sitio está hecho con **Quarto Book** y se publica con **GitHub Pages**.
+
+## Tabla de contenidos
+El menú lateral incluye los capítulos y apéndices.
+
+## Licencia
+Contenido bajo licencia CC BY-SA 4.0 (ajústalo si lo deseas).
