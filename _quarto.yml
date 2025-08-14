@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs   # GitHub Pages publicará desde aquí
+
+book:
+  title: "Aprendizaje Computacional"
+  author: "Tu Nombre"
+  chapters:
+    - index.qmd
+    - capitulos/01-introduccion.qmd
+    - capitulos/02-bayes.qmd
+    - capitulos/03-parametricos.qmd
+  sidebar:
+    style: floating
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    include-in-header:
+      text: |
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    code-fold: true
+    smooth-scroll: true
+  pdf: default
+
+execute:
+  echo: true
+  warning: false
+
+lang: es
